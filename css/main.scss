@@ -11,8 +11,19 @@ body, html {
     top: 0px;
 }
 
-span {
+#fp-nav ul li a.active span {
     background-color: white !important;
+}
+
+#fp-nav ul li a span {
+    border: 1px solid grey;
+    width: 12px;
+    height: 12px;
+    margin: -6px 0 0 -6px;
+}
+
+span {
+    background-color: transparent !important;
     background-color: none;
 }
 
