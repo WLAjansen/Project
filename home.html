@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.min.css" integrity="sha256-+dIh4jG2jQTHZwW81yUo8h6tzXWcNumyNL5XPZbwp1E=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/navbar.css">
+</head>
+<body>
+   <nav class="navbar">
+      <div class="navbar-toggle" id="js-navbar-toggle">
+              <i class="fas fa-bars"></i>
+      </div>
+      <a href="#" class="logo">logo</a>
+      <ul class="main-nav" id="js-menu">
+        <li>
+          <a href="#" class="nav-links">Home</a>
+        </li>
+        <li>
+          <a href="#" class="nav-links">Products</a>
+        </li>
+        <li>
+          <a href="#" class="nav-links">About Us</a>
+        </li>
+        <li>
+          <a href="#" class="nav-links">Contact Us</a>
+        </li>
+        <li>
+          <a href="#" class="nav-links">Blog</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="container">
+        <div class="section s1">
+           <h1>The first section</h1>
+        </div>
+        <div class="section s2">
+            <h1>The second section</h1>
+         </div>
+         <div class="section s3">
+            <h1>The third section</h1>
+         </div>
+         <div class="section s4">
+            <h1>The fourth section</h1>
+         </div>
+         <div class="section s5">
+            <h1>The fifth section</h1>
+         </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.min.js" integrity="sha256-caNcSA0LvOCX90PTuEbwl+V09xPMca13CJUasl+VCtk=" crossorigin="anonymous"></script>
+
+    <script>
+        new fullpage('.container', {
+           autoScrolling: true,
+           navigation: true,
+           scrollingSpeed: 1000,
+           navigationPosition: 'left',
+           keyboardScrolling: true,
+           responsiveSlides: true,
+           fixedElements: '.navbar, .footer'
+        })
+    </script>
+    <script>
+       let mainNav = document.getElementById("js-menu");
+let navBarToggle = document.getElementById("js-navbar-toggle");
+
+navBarToggle.addEventListener("click", function() {
+  mainNav.classList.toggle("active");
+});
+
+    </script>
+    
+</body>
+</html>
