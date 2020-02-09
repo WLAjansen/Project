@@ -12,6 +12,7 @@ body, html {
 
 span {
   background-color: white !important;
+  background-color: none;
 }
 
 h1 {
@@ -21,21 +22,41 @@ h1 {
 
 .s1 {
   background-color: red;
+  background: url(https://images.unsplash.com/photo-1581175205672-1672e1e94bac?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .s2 {
-  background-color: green;
+  background-color: red;
+  background: url(https://images.unsplash.com/photo-1581175205491-9e681bba5481?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .s3 {
-  background-color: purple;
+  background-color: red;
+  background: url(https://images.unsplash.com/photo-1532085755448-a67fd3b518b2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=795&q=80);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .s4 {
-  background-color: black;
+  background-color: red;
+  background: url(https://images.unsplash.com/photo-1581175205672-1672e1e94bac?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .s5 {
-  background-color: dodgerblue;
+  background-color: red;
+  background: url(https://images.unsplash.com/photo-1581175205672-1672e1e94bac?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 /*# sourceMappingURL=main.css.map */
